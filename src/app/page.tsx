@@ -21,7 +21,7 @@ export default function Home() {
           to innovate and improve.
         </p>
       </section>
-      <section className="flex flex-col gap-16 w-full max-w-screen-xl min-w-20 m-auto text-ic8 bg-black">
+      <section className="xl:h-[calc(100vh)] flex flex-col gap-16 w-full max-w-screen-xl min-w-20 m-auto text-ic8 bg-black">
         <h2
           id="people"
           className="w-fit m-auto text-2xl md:text-3xl xl:text-4xl font-bold"
@@ -86,7 +86,7 @@ export default function Home() {
           </div>
         </section>
       </section>
-      <section className="flex flex-col xl:flex-row justify-center items-center w-full px-8 xl:px-0 text-centermax-w-screen-xl min-w-20 m-auto text-ic8 bg-black">
+      <section className="xl:h-[calc(100vh-105px)] flex flex-col xl:flex-row justify-center items-center w-full px-8 xl:px-0 text-centermax-w-screen-xl min-w-20 m-auto text-ic8 bg-black">
         <section className="w-full xl:w-3/5 h-full xl:mr-16 pt-24">
           <h2
             id="about"
