@@ -24,12 +24,12 @@ export default function Home() {
       <section className="xl:h-[calc(100vh)] flex flex-col gap-16 w-full max-w-screen-xl min-w-20 m-auto text-ic8 bg-black">
         <h2
           id="people"
-          className="w-fit m-auto text-2xl md:text-3xl xl:text-4xl font-bold"
+          className="w-fit mx-auto text-2xl md:text-3xl xl:text-4xl font-bold"
         >
           PEOPLE
         </h2>
-        <section className="flex flex-col md:items-center xl:flex-row lg:my-12">
-          <div className="flex flex-col justify-center w-full xl:w-2/5 text-center xl:text-right xl:mr-8">
+        <section className="flex flex-col md:items-center xl:flex-row lg:my-12 xl:h-2/5 xl:my-0 xl:mt-12">
+          <div className="flex flex-col justify-center w-full xl:w-2/5 text-center xl:text-right xl:mr-8 ">
             <h1 className="text-4xl xl:text-6xl text-white font-bold">
               Spencer
             </h1>
@@ -58,7 +58,7 @@ export default function Home() {
             </p>
           </div>
         </section>
-        <section className="flex flex-col-reverse md:items-center xl:flex-row lg:my-12">
+        <section className="flex flex-col-reverse md:items-center xl:flex-row lg:my-12 xl:h-2/5 xl:my-0 xl:mb-12">
           <div className="flex justify-center md:w-5/6 xl:w-2/5 xl:mr-8">
             <p className="h-fit mx-4 mt-8 text-white leading-7 tracking-widest text-center xl:text-left xl:m-auto xl:text-lg">
               A commercially astute IT professional with over 20 years’
@@ -94,7 +94,7 @@ export default function Home() {
           >
             About
           </h2>
-          <p className="text-white leading-7 tracking-widest text-center xl:text-left my-8 md:mb-8 md:mt-20 xl:my-8">
+          <p className="text-white leading-7 tracking-wide text-center xl:text-left my-8 md:mb-8 md:mt-20 xl:my-8 xl:text-md">
             We are IC8, a new IT Recruitment and Consultancy company born out of
             a shared vision among ex-colleagues and friends. We have a strong
             bond of respect and trust that stems from working together in
@@ -102,7 +102,7 @@ export default function Home() {
             in our careers, and we want to share our passion and expertise with
             our clients and candidates.
           </p>
-          <p className="text-ic8 leading-7 tracking-widest text-center xl:text-left font-bold my-8">
+          <p className="text-ic8 leading-7 tracking-wide text-center xl:text-left font-bold my-8 xl:text-md">
             We have the same collective vision of what a great IT recruitment
             and services company should be: one that is driven by passion,
             excellence, innovation and transparency. That is why we decided to
@@ -110,7 +110,7 @@ export default function Home() {
             to help our clients and candidates achieve their goals and overcome
             their challenges.
           </p>
-          <p className="text-white leading-7 tracking-widest text-center xl:text-left my-8">
+          <p className="text-white leading-7 tracking-wide text-center xl:text-left my-8 xl:text-md">
             We offer IT recruitment services to help our clients find the best
             talent for their projects and to help our candidates find their next
             ideal role. We also provide IT consultancy services to help our
