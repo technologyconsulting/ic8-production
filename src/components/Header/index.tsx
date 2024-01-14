@@ -10,7 +10,7 @@ export default function Header() {
       <section className="flex md:w-2/6 xl:w-1/5">
         <div className="relative w-20 h-10 mx-auto mt-4 md:w-28 md:h-14 xl:w-40 xl:h-20 xl:mx-0 xl:ml-[-1.5rem]">
           <Image
-            src={"/ic8_rac.png"}
+            src={"/main-logo.png"}
             alt="IC8 Logo is gold in color, features the word ic8 and has an icon that uses a combination of the 8, i and C"
             // width={260}
             // height={104.25}
