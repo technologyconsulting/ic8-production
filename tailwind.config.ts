@@ -21,6 +21,13 @@ const config = {
       fontFamily: {
         sans: ["var(--font-poppins)"],
       },
+      dropShadow: {
+        ic8: [
+          "0 10px 8px rgb(255 200 0 / 0.04)",
+          "0 4px 3px rgb(255 200 0/ 0.1)",
+        ],
+        radio: ["0 0 0 2px white"],
+      },
       colors: {
         ic8: "#FFc800",
         border: "hsl(var(--border))",

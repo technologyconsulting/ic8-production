@@ -72,6 +72,13 @@
   * {
     @apply border-border;
   }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
   html {
     scroll-behavior: smooth;
     overflow-x: hidden;

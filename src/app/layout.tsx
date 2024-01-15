@@ -48,7 +48,7 @@ export default function RootLayout({
     >
       <html lang="en">
         <body
-          className={`${poppins.variable}, font-sans flex flex-col w-screen h-screen align-center`}
+          className={`${poppins.variable}, font-sans flex flex-col w-screen align-center`}
         >
           <Header />
           {children}
