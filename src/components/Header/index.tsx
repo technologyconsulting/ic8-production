@@ -26,8 +26,8 @@ export default function Header() {
         <PageNav />
       </section>
       {/* <Auth /> */}
-      <section className="hidden md:flex md:justify-center md:items-center md:w-2/6 xl:w-1/5">
-        <p className="mb-12 xl:mb-0 text-lg uppercase after:block after:content-[''] after:border-b-2 after:border-b-ic8 after:scale-x-0 after:transform after:duration-200 after:ease-in-out after:py-2 hover:after:scale-x-100 hover:after:py-2 md:mb-0 md:mt-4 xl:pt-6 xl:align-middle">
+      <section className="hidden no-underline md:flex md:justify-center md:items-center md:w-2/6 xl:w-1/5">
+        <p className="mb-12 xl:mb-0 text-lg uppercase after:block after:content-[''] after:border-b-2 after:border-b-ic8 after:scale-x-0 after:transform after:duration-200 after:ease-in-out after:py-2 hover:after:scale-x-100 hover:after:py-2 md:mb-0 md:mt-4 xl:pt-4 xl:align-middle">
           INFO@IC8.CO.UK
         </p>
       </section>
