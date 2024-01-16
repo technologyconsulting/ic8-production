@@ -4,13 +4,13 @@ import { PhotoIcon, UserCircleIcon } from "@heroicons/react/24/solid";
 
 import { createClient } from "@supabase/supabase-js";
 
-const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL;
-const supabaseKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
+const supabaseUrl: string = process.env.NEXT_PUBLIC_SUPABASE_URL || "";
+const supabaseKey: string = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || "";
 const supabase = createClient(supabaseUrl, supabaseKey);
 
 export default function ContactUs() {
   const [successfullySent, setSuccessfullySent] = useState(false);
-  const [file, setFile] = useState(null);
+  const [file, setFile] = useState<File | null>(null);
   const [formData, setFormData] = useState({
     selectedOption: "candidate",
     firstname: "",
@@ -20,7 +20,7 @@ export default function ContactUs() {
 
   const fileInputRef = useRef(null);
 
-  const handleFormChange = (e) => {
+  const handleFormChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
 
     // console.log(e.target.name);
@@ -29,17 +29,17 @@ export default function ContactUs() {
     setFormData((prevData) => ({ ...prevData, [name]: value }));
   };
 
-  const handleFileChange = (e) => {
-    console.log(e.target.files[0]);
-    setFile(e.target.files[0]);
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const selectedFile = e.target.files?.[0] || null;
+    setFile(selectedFile);
   };
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
     const { data: fileData, error: fileError } = await supabase.storage
       .from("contact-us") // Replace with your Supabase storage bucket name
-      .upload(`uploads/${formData.email}/${file.name}`, file);
+      .upload(`uploads/${formData.email}/${file?.name}`, file || "");
 
     console.log(fileData);
 
@@ -84,7 +84,7 @@ export default function ContactUs() {
     <div className="h-full w-90 leading-7 tracking-widest md:mt-20 xl:mt-0 ">
       <form
         onSubmit={handleSubmit}
-        className="xl:bg-neutral-950 xl:drop-shadow-ic8 xl:p-4"
+        className="xl:bg-neutral-950 xl:drop-shadow-white xl:p-4"
       >
         <div className="flex justify-between mt-8">
           <div className="flex items-center gap-4 w-1/2">

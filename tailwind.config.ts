@@ -26,6 +26,10 @@ const config = {
           "0 10px 8px rgb(255 200 0 / 0.04)",
           "0 4px 3px rgb(255 200 0/ 0.1)",
         ],
+        white: [
+          "0 10px 8px rgb(255 255 255 / 0.04)",
+          "0 4px 3px rgb(255 255 255/ 0.1)",
+        ],
         radio: ["0 0 0 2px white"],
       },
       colors: {

@@ -3,6 +3,7 @@ import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import Image from "next/image";
 
 import PageNav from "@/components/PageNav";
+import Auth from "../Auth";
 
 export default function Header() {
   return (
@@ -24,29 +25,11 @@ export default function Header() {
       <section className="flex items-center md:w-3/6 md:mt-4 xl:w-3/5 xl:pt-2 landscape:sm:mt-2">
         <PageNav />
       </section>
-      <section className="hidden md:flex md:justify-center md:w-2/6 xl:w-1/5">
-        <SignedIn>
-          {/* Mount the UserButton component */}
-          <UserButton
-            afterSignOutUrl="/"
-            appearance={{
-              elements: {
-                rootBox: "flex pr-4",
-                avatarBox: "w-12 h-12",
-              },
-            }}
-          />
-        </SignedIn>
-        <SignedOut>
-          {/* Signed out users get sign in button */}
-          <SignInButton mode="modal">
-            <button className="py-1 xl:w-fit xl:py-2">
-              <p className="mb-12 xl:mb-0 text-lg uppercase after:block after:content-[''] after:border-b-2 after:border-b-ic8 after:scale-x-0 after:transform after:duration-200 after:ease-in-out after:py-2 hover:after:scale-x-100 hover:after:py-2 md:mb-0 md:mt-4 xl:pt-6 xl:align-middle">
-                Client Portal
-              </p>
-            </button>
-          </SignInButton>
-        </SignedOut>
+      {/* <Auth /> */}
+      <section className="hidden md:flex md:justify-center md:items-center md:w-2/6 xl:w-1/5">
+        <p className="mb-12 xl:mb-0 text-lg uppercase after:block after:content-[''] after:border-b-2 after:border-b-ic8 after:scale-x-0 after:transform after:duration-200 after:ease-in-out after:py-2 hover:after:scale-x-100 hover:after:py-2 md:mb-0 md:mt-4 xl:pt-6 xl:align-middle">
+          INFO@IC8.CO.UK
+        </p>
       </section>
     </header>
   );

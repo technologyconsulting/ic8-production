@@ -38,9 +38,9 @@ export default function Home() {
           PEOPLE
         </h2>
         {/* SPENCER SHALKA */}
-        <section className="flex flex-col gap-12 md:items-center md:gap-0 xl:flex-row lg:my-12 xl:h-2/5 xl:my-0 xl:mt-12 xl:bg-neutral-950 xl:drop-shadow-ic8 xl:gap-8 xl:border-none xl:rounded-s-full landscape:gap-0 landscape:md:gap-12">
+        <section className="flex flex-col gap-12 md:items-center md:gap-0 xl:flex-row lg:my-12 xl:h-2/5 xl:my-0 xl:mt-12 xl:gap-8 xl:border-none xl:rounded-s-full landscape:gap-0 landscape:md:gap-12">
           {/* NAME & IMAGE */}
-          <div className="flex flex-col md:flex-row md:items-center md:gap-12 xl:flex-row xl:w-3/6 h-56 xl:bg-black xl:border-none xl:rounded-e-full xl:justify-between xl:rounded-l-xl landscape:flex-row">
+          <div className="flex flex-col md:flex-row md:items-center md:gap-12 xl:flex-row xl:w-3/6 h-56 xl:bg-neutral-950 xl:drop-shadow-white xl:border-none xl:rounded-e-full xl:justify-between xl:rounded-l-xl xl:gap-4 landscape:flex-row">
             <div className="flex flex-col justify-center w-full md:text-right md:mt-4 xl:w-3/5 text-center xl:text-right landscape:sm:w-2/4 landscape:sm:text-right ">
               <h1 className="text-4xl text-white font-bold xl:text-6xl landscape:text-4xl">
                 Spencer
@@ -52,7 +52,7 @@ export default function Home() {
                 Co-Founder
               </h1>
             </div>
-            <div className="flex justify-center w-2/5 mx-auto mt-8 md:w-3/5 xl:mt-0 xl:w-48 xl:mx-0 xl:mr-4 landscape:sm:w-1/6 landscape:sm:mx-8 landscape:sm:mt-0 landscape:md:w-2/5">
+            <div className="flex justify-center w-2/5 mx-auto mt-8 md:w-3/5 xl:mt-0 xl:w-48 xl:mx-0 xl:mr-4 xl: landscape:sm:w-1/6 landscape:sm:mx-8 landscape:sm:mt-0 landscape:md:w-2/5 landscape:xl:w-48">
               <Image
                 src="/spencer1SS.svg"
                 alt="Picture of Spencer Shalka, Co-founder of IC8"
@@ -62,7 +62,7 @@ export default function Home() {
             </div>
           </div>
           {/* BIO */}
-          <div className="flex justify-center md:w-4/6 md:bg-neutral-950 md:p-10 md:rounded-3xl xl:w-3/6 xl:mr-8 xl:rounded-3xl">
+          <div className="flex justify-center md:w-4/6 md:bg-neutral-950 md:p-10 md:rounded-3xl md:drop-shadow-white xl:w-3/6 xl:mr-8 xl:rounded-3xl">
             <p className="h-fit mx-4 mt-8 text-white opacity-60 leading-7 tracking-widest text-center xl:text-left xl:m-auto xl:text-lg landscape:text-base landscape:sm:mt-0 landscape:md:mt-4">
               {/* An experienced and talented Resource Manager with an exceptional
               ability to work at pace to meet tight deadlines. Proven experience
@@ -93,9 +93,9 @@ export default function Home() {
           </div>
         </section>
         {/* TIM HATHAWAY */}
-        <section className="flex flex-col-reverse mt-8 md:items-center xl:flex-row lg:my-12 xl:h-2/5 xl:my-0 xl:mb-12 xl:bg-neutral-950 xl:drop-shadow-ic8 xl:gap-8 xl:border-none xl:rounded-e-full landscape:mt-8 landscape:gap-0 landscape:md:gap-12">
+        <section className="flex flex-col-reverse mt-8 md:items-center xl:flex-row lg:my-12 xl:h-2/5 xl:my-0 xl:mb-12 xl:gap-8 xl:border-none xl:rounded-e-full landscape:mt-8 landscape:gap-0 landscape:md:gap-12">
           {/* BIO */}
-          <div className="flex justify-center md:w-4/6 md:bg-neutral-950 md:p-10 md:rounded-3xl xl:w-3/6 xl:ml-8 xl:rounded-3xl">
+          <div className="flex justify-center md:w-4/6 md:bg-neutral-950 md:p-10 md:rounded-3xl md:drop-shadow-white xl:w-3/6 xl:ml-8 xl:rounded-3xl">
             <p className="h-fit mx-4 mt-8 text-white opacity-60 leading-7 tracking-widest text-center xl:text-left xl:m-auto xl:text-lg landscape:text-base landscape:sm:mt-0 landscape:md:mt-8">
               {/* A commercially astute IT professional with over 20 years’
               experience of operations, Programme delivery and business growth.
@@ -111,8 +111,8 @@ export default function Home() {
             </p>
           </div>
           {/* NAME & IMAGE */}
-          <div className="flex flex-col-reverse md:flex-row md:items-center md:gap-12 xl:flex-row xl:w-3/6 h-56 xl:bg-black xl:border-none xl:rounded-s-full xl:rounded-e-2xl xl:justify-between landscape:flex-row landscape:justify-end">
-            <div className="flex justify-center w-2/5 mx-auto mt-8 md:w-3/5 xl:mt-0 xl:w-48 xl:mx-0 xl:ml-4 landscape:sm:w-1/6 landscape:sm:mx-8 landscape:sm:mt-0 landscape:md:w-2/5">
+          <div className="flex flex-col-reverse md:flex-row md:items-center md:gap-12 xl:flex-row xl:w-3/6 h-56 xl:bg-neutral-950 xl:drop-shadow-white xl:border-none xl:rounded-s-full xl:rounded-e-2xl xl:justify-between xl:gap-4 landscape:flex-row landscape:justify-end">
+            <div className="flex justify-center w-2/5 mx-auto mt-8 md:w-3/5 xl:mt-0 xl:w-48 xl:mx-0 xl:ml-4 landscape:sm:w-1/6 landscape:sm:mx-8 landscape:sm:mt-0 landscape:md:w-2/5 landscape:xl:w-48">
               <Image
                 src="/tim1TH.svg"
                 alt="Picture of Tim Hathaway, Co-founder of IC8"
@@ -120,7 +120,7 @@ export default function Home() {
                 height={230}
               />
             </div>
-            <div className="flex flex-col justify-center w-full md:text-left md:mt-4 xl:w-3/5 text-center xl:text-left xl:ml-8 landscape:sm:w-2/4 landscape:sm:text-left">
+            <div className="flex flex-col justify-center w-full text-center md:text-left md:mt-4 xl:w-3/5 xl:text-left xl:ml-4 landscape:sm:w-2/4 landscape:sm:text-left">
               <h1 className="text-4xl xl:text-6xl text-white font-bold landscape:text-4xl">
                 Tim
               </h1>
@@ -145,7 +145,7 @@ export default function Home() {
           >
             About
           </h2>
-          <p className="text-white opacity-60 leading-7 tracking-wide text-center md:w-5/5 md:m-auto md:bg-neutral-950 md:p-10 md:rounded-3xl md:drop-shadow-ic8 xl:w-full xl:text-left my-8 md:mb-8 md:mt-20 xl:my-8 xl:text-md xl:bg-neutral-950 xl:drop-shadow-ic8 xl:p-4">
+          <p className="text-white opacity-60 leading-7 tracking-wide text-center md:w-5/5 md:m-auto md:bg-neutral-950 md:p-10 md:rounded-3xl md:drop-shadow-white xl:w-full xl:text-left my-8 md:mb-8 md:mt-20 xl:my-8 xl:text-md xl:bg-neutral-950 xl:drop-shadow-white xl:p-4">
             We are IC8, a new IT Recruitment and Consultancy company born out of
             a shared vision among ex-colleagues and friends. We have a strong
             bond of respect and trust that stems from working together in
@@ -161,7 +161,7 @@ export default function Home() {
             to help our clients and candidates achieve their goals and overcome
             their challenges.
           </p>
-          <p className="text-white opacity-60 leading-7 tracking-wide text-center md:w-5/5 md:m-auto md:bg-neutral-950 md:p-10 md:rounded-3xl md:drop-shadow-ic8 xl:w-full xl:text-left my-8 xl:text-md xl:bg-neutral-950 xl:drop-shadow-ic8 xl:p-4">
+          <p className="text-white opacity-60 leading-7 tracking-wide text-center md:w-5/5 md:m-auto md:bg-neutral-950 md:p-10 md:rounded-3xl md:drop-shadow-white xl:w-full xl:text-left my-8 xl:text-md xl:bg-neutral-950 xl:drop-shadow-white xl:p-4">
             We offer IT recruitment services to help our clients find the best
             talent for their projects and to help our candidates find their next
             ideal role. We also provide IT consultancy services to help our
