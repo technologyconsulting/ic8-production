@@ -1,3 +1,5 @@
+import { GoogleAnalytics } from "@next/third-parties/google";
+
 import localFont from "@next/font/local";
 import { ClerkProvider } from "@clerk/nextjs";
 import { dark } from "@clerk/themes";
@@ -54,6 +56,7 @@ export default function RootLayout({
           {children}
           <Footer />
         </body>
+        <GoogleAnalytics gaId="G-B4DSNPYYZN" />
       </html>
     </ClerkProvider>
   );
