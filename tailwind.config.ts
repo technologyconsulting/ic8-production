@@ -24,16 +24,21 @@ const config = {
       dropShadow: {
         ic8: [
           "0 10px 8px rgb(255 200 0 / 0.04)",
-          "0 4px 3px rgb(255 200 0/ 0.1)",
+          "0 4px 3px rgb(255 200 0 / 0.1)",
         ],
         white: [
           "0 10px 8px rgb(255 255 255 / 0.04)",
-          "0 4px 3px rgb(255 255 255/ 0.1)",
+          "0 4px 3px rgb(255 255 255 / 0.1)",
+        ],
+        ic8teal: [
+          "0 10px 8px rgb(1 77 78 / 0.04)",
+          "0 4px 3px rgb(1 77 78 / 0.1)",
         ],
         radio: ["0 0 0 2px white"],
       },
       colors: {
         ic8: "#FFc800",
+        ic8teal: "#014d4e",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
