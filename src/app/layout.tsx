@@ -1,4 +1,5 @@
 import { GoogleAnalytics } from "@next/third-parties/google";
+import { Analytics } from "@vercel/analytics/react";
 
 import localFont from "@next/font/local";
 import { ClerkProvider } from "@clerk/nextjs";
@@ -57,6 +58,7 @@ export default function RootLayout({
           <Footer />
         </body>
         <GoogleAnalytics gaId="G-B4DSNPYYZN" />
+        <Analytics />
       </html>
     </ClerkProvider>
   );
