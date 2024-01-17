@@ -1,3 +1,4 @@
+import { GoogleAnalytics } from "@next/third-parties/google";
 import Image from "next/image";
 
 import ContactUs from "@/components/ContactUs";
@@ -26,6 +27,7 @@ export default function ComingSoon() {
           </h1>
         </section>
       </section>
+      <GoogleAnalytics gaId="G-B4DSNPYYZN" />
     </main>
   );
 }
