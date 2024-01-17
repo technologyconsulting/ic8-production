@@ -13,6 +13,7 @@
     "@clerk/themes": "^1.7.9",
     "@heroicons/react": "^2.1.1",
     "@next/font": "^14.0.4",
+    "@next/third-parties": "^14.0.4",
     "@supabase/supabase-js": "^2.39.3",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.0",
