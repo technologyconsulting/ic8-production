@@ -31,14 +31,18 @@ export function ContactUs() {
                 CONTACT DETAILS
               </h2>
               <section className="mt-8 text-white">
-                <p className="mb-4 border-l-2 border-ic8 bg-neutral-950 p-8">
-                  <span className="text-ic8">Email Address:</span> <br />
-                  info@ic8.co.uk
-                </p>
-                <p className="mb-4 border-l-2 border-ic8 bg-neutral-950 p-8">
-                  <span className="text-ic8">Telephone:</span> <br />
-                  +44 (0)1234 123456{" "}
-                </p>
+                <a href="mailto:info@ic8.co.uk">
+                  <p className="mb-4 border-l-2 border-ic8 bg-neutral-950 p-8">
+                    <span className="text-ic8">Email Address:</span> <br />
+                    info@ic8.co.uk
+                  </p>
+                </a>
+                <a href="tel:00441234123456">
+                  <p className="mb-4 border-l-2 border-ic8 bg-neutral-950 p-8">
+                    <span className="text-ic8">Telephone:</span> <br />
+                    +44 (0)1234 123456{" "}
+                  </p>
+                </a>
                 <p className="mb-4 border-l-2 border-ic8 bg-neutral-950 p-8">
                   <span className="text-ic8">Address:</span> <br />
                   29 Highfield Road, Billericay, <br />
@@ -55,7 +59,7 @@ export function ContactUs() {
       </aside>
       <button
         type="button"
-        className="fixed left-[85%] top-[90%] z-50 "
+        className="fixed bottom-[5%] right-[10%] z-50 lg:right-[16%] lg:top-[88%] "
         onClick={() => {
           setIsContactOpen((current) => !current);
           setSuccessfullySentContactForm(false);

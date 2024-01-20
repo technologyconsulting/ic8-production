@@ -7,7 +7,7 @@ import {
 
 const features = [
   {
-    name: "Applications development and support",
+    name: "Applications Development and Support",
     description:
       "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
     icon: CloudArrowUpIcon,
@@ -19,43 +19,43 @@ const features = [
     icon: LockClosedIcon,
   },
   {
-    name: "Business analysis",
+    name: "Business Analysis",
     description:
       "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
     icon: ArrowPathIcon,
   },
   {
-    name: "Business architecture",
+    name: "Business Architecture",
     description:
       "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
     icon: FingerPrintIcon,
   },
   {
-    name: "Business change and transformation",
+    name: "Business Change and Transformation",
     description:
       "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
     icon: FingerPrintIcon,
   },
   {
-    name: "Contact centre",
+    name: "Contact Centre",
     description:
       "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
     icon: CloudArrowUpIcon,
   },
   {
-    name: "Cyber security",
+    name: "Cyber Security",
     description:
       "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.",
     icon: LockClosedIcon,
   },
   {
-    name: "Data analysis and architecture",
+    name: "Data Analysis and Architecture",
     description:
       "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
     icon: ArrowPathIcon,
   },
   {
-    name: "Data-networking",
+    name: "Data-Networking",
     description:
       "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
     icon: FingerPrintIcon,
@@ -67,37 +67,37 @@ const features = [
     icon: FingerPrintIcon,
   },
   {
-    name: "Enterprise resource planning (ERP)",
+    name: "Enterprise Resource Planning (ERP)",
     description:
       "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
     icon: CloudArrowUpIcon,
   },
   {
-    name: "Information and technical assurance",
+    name: "Information and Technical Assurance",
     description:
       "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.",
     icon: LockClosedIcon,
   },
   {
-    name: "Infrastructure cabling",
+    name: "Infrastructure Cabling",
     description:
       "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
     icon: ArrowPathIcon,
   },
   {
-    name: "IT infrastructure",
+    name: "IT Infrastructure",
     description:
       "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
     icon: FingerPrintIcon,
   },
   {
-    name: "Operational management",
+    name: "Operational Management",
     description:
       "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
     icon: FingerPrintIcon,
   },
   {
-    name: "Project and programme management",
+    name: "Project and Programme Management",
     description:
       "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
     icon: CloudArrowUpIcon,
@@ -109,19 +109,19 @@ const features = [
     icon: LockClosedIcon,
   },
   {
-    name: "Software development and testing",
+    name: "Software Development and Testing",
     description:
       "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
     icon: ArrowPathIcon,
   },
   {
-    name: "Technical and solution architecture",
+    name: "Technical and Solution Architecture",
     description:
       "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
     icon: FingerPrintIcon,
   },
   {
-    name: "Unified communications and collaboration",
+    name: "Unified Communications and Collaboration",
     description:
       "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
     icon: FingerPrintIcon,

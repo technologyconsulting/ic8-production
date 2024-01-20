@@ -61,11 +61,6 @@ export default function UploadCV() {
     setTermsAgreed((current) => !current);
   };
 
-  // const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-  //   const selectedFile = e.target.files?.[0] || null;
-  //   setFile(selectedFile);
-  // };
-
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
@@ -133,7 +128,7 @@ export default function UploadCV() {
       className={`${
         isCVOpen ? "fixed" : "hidden"
       } left-0 top-0 z-50 flex h-full w-full items-center justify-center bg-neutral-950 xl:bg-opacity-80`}
-      onClick={handleCVOpen}
+      onClick={(e) => e.stopPropagation()}
     >
       <form
         onSubmit={handleSubmit}
@@ -143,8 +138,10 @@ export default function UploadCV() {
         <section className="text-ic8">
           <div className="flex justify-between">
             <p className=" text-2xl text-ic8">UPLOAD CV</p>
-            <p onClick={handleCVOpen} className="cursor-pointer">
-              <XMarkIcon className="w-6 fill-ic8" />
+            <p className="cursor-pointer">
+              <button type="button" className="z-50 " onClick={handleCVOpen}>
+                <XMarkIcon className="hover:-black inline-flex h-10 w-10 items-center justify-center whitespace-nowrap rounded-full border border-input bg-black p-1 text-ic8 ring-offset-background  transition-colors hover:bg-white hover:text-black" />
+              </button>
             </p>
           </div>
           <div className="my-8 w-full border-b-2 border-ic8 py-1">

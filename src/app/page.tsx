@@ -8,11 +8,11 @@ export default function Home() {
       {/* HERO */}
       <section
         id="/"
-        className="landscape:sm:h-100vh flex h-[calc(100vh-128px)] scroll-mt-40 flex-col justify-center pb-40 md:justify-center xl:scroll-mt-40 landscape:sm:flex-row landscape:md:flex-col"
+        className="landscape:sm:h-100vh flex h-[calc(100vh-88px)] scroll-mt-40 flex-col justify-center pb-40 md:justify-center xl:scroll-mt-40 landscape:sm:flex-row landscape:md:flex-col"
       >
         {/* ABOVE THE LINE */}
         <section className="mx-auto mb-8 flex w-5/6 flex-col border-b-2 border-ic8 pb-8 tracking-[.25rem] md:w-fit xl:mx-0 xl:w-fit landscape:sm:w-3/5 landscape:sm:justify-center landscape:sm:border-b-0 landscape:sm:border-r-2  landscape:md:w-fit landscape:md:border-b-2 landscape:md:border-r-0">
-          <h1 className="text-center  text-3xl font-bold text-white md:text-6xl xl:text-8xl">
+          <h1 className="text-center  text-3xl font-bold text-white  md:text-6xl xl:text-8xl">
             IT Recruitment
           </h1>
           <h1 className="text-center  text-3xl font-bold text-white md:text-6xl xl:text-8xl">
@@ -20,7 +20,7 @@ export default function Home() {
           </h1>
         </section>
         {/* BELWO THE LINE */}
-        <p className="px-4 text-center text-white text-opacity-60 md:mx-auto md:w-[40rem] md:text-2xl xl:mx-0 xl:w-[45rem] xl:px-0 xl:text-left landscape:sm:my-auto landscape:sm:w-3/5 landscape:md:my-0 landscape:md:w-[40rem] landscape:xl:w-[45rem]">
+        <p className="px-4 text-center leading-7 tracking-widest text-white text-opacity-60 md:mx-auto md:w-[40rem] md:text-2xl xl:mx-0 xl:w-[45rem] xl:px-0 xl:text-left landscape:sm:my-auto landscape:sm:w-3/5 landscape:md:my-0 landscape:md:w-[40rem] landscape:xl:w-[45rem]">
           {/* We value openness, honesty, transparency, communication and
           collaboration as the pillars of our company culture. We work as a team
           and we treat our clients and candidates as partners. We are always
@@ -60,7 +60,7 @@ export default function Home() {
                 CO-FOUNDER
               </h1>
             </div>
-            <div className="xl: mx-auto mt-8 flex w-2/5 justify-center md:w-3/5 xl:mx-0 xl:mr-4 xl:mt-0 xl:w-48 landscape:sm:mx-8 landscape:sm:mt-0 landscape:sm:w-1/6 landscape:md:w-2/5 landscape:xl:w-48">
+            <div className="mx-auto mt-8 flex w-2/5 justify-center md:w-3/5 xl:mx-0 xl:ml-4 xl:mt-0 xl:w-48 landscape:sm:mx-8 landscape:sm:mt-0 landscape:sm:w-1/6 landscape:md:w-2/5 landscape:xl:w-48">
               <Image
                 src="/spencer1SS.svg"
                 alt="Picture of Spencer Shalka, Co-founder of IC8"

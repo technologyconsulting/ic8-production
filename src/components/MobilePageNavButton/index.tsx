@@ -38,9 +38,11 @@ export default function MobilePageNavButton() {
       </div>
       <div className=" lg:flex-grow">
         <section className="hidden md:hidden lg:flex xl:w-1/5">
-          <p className=" mt-4 text-lg after:block after:scale-x-0 after:transform after:border-b-2 after:border-b-ic8 after:py-2 after:duration-200 after:ease-in-out after:content-[''] hover:after:scale-x-100 hover:after:py-2 lg:mt-2 xl:mt-6 landscape:lg:mt-6 ">
-            <span className="uppercase">INFO@IC8.CO.UK</span>
-          </p>
+          <a href="mailto:info@ic8.co.uk">
+            <p className=" mt-4 text-lg after:block after:scale-x-0 after:transform after:border-b-2 after:border-b-ic8 after:py-2 after:duration-200 after:ease-in-out after:content-[''] hover:after:scale-x-100 hover:after:py-2 lg:mt-2 xl:mt-6 landscape:lg:mt-6 ">
+              <span className="uppercase">INFO@IC8.CO.UK</span>
+            </p>
+          </a>
         </section>
       </div>
     </>

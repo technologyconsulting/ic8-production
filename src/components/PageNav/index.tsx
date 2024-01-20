@@ -12,7 +12,7 @@ export default function PageNav() {
     <nav className="flex w-full flex-wrap md:justify-end lg:justify-center xl:h-16">
       <ul className="flex flex-col md:flex-row">
         <Link
-          href="#/"
+          href="/#/"
           onClick={() => {
             setIsOpen(false);
           }}
@@ -24,7 +24,7 @@ export default function PageNav() {
           </li>
         </Link>
         <Link
-          href="#people"
+          href="/#people"
           onClick={() => {
             setIsOpen(false);
           }}
@@ -36,7 +36,7 @@ export default function PageNav() {
           </li>
         </Link>
         <Link
-          href="#services"
+          href="/#services"
           onClick={() => {
             setIsOpen(false);
           }}
@@ -48,7 +48,7 @@ export default function PageNav() {
           </li>
         </Link>
         <Link
-          href="#about"
+          href="/#about"
           onClick={() => {
             setIsOpen(false);
           }}

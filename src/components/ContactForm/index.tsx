@@ -166,7 +166,7 @@ export default function ContactForm() {
                 {/* You agree to our Terms of Service and Privacy Policy. */}
               </p>
               {successfullySentContactForm ? (
-                <p className="text-lg text-emerald-600">Successfully Sent</p>
+                <p className="text-lg text-ic8teal">Successfully Sent</p>
               ) : null}
             </div>
           </div>
