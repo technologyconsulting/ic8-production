@@ -5,7 +5,8 @@ import { XMarkIcon } from "@heroicons/react/24/solid";
 import { useMobilePageNavButtonContext } from "@/lib/MobilePageNavContext";
 
 export function ContactUs() {
-  const { isContactOpen, setIsContactOpen } = useMobilePageNavButtonContext();
+  const { isContactOpen, setIsContactOpen, setSuccessfullySentContactForm } =
+    useMobilePageNavButtonContext();
   return (
     <>
       <aside
@@ -57,6 +58,7 @@ export function ContactUs() {
         className="fixed left-[85%] top-[90%] z-50 "
         onClick={() => {
           setIsContactOpen((current) => !current);
+          setSuccessfullySentContactForm(false);
         }}
       >
         {isContactOpen ? (

@@ -10,8 +10,10 @@ interface MobilePageNavButtonContextProps {
   setIsContactOpen: React.Dispatch<React.SetStateAction<boolean>>;
   files: File[];
   setFiles: React.Dispatch<React.SetStateAction<File[]>>;
-  setSuccessfullySent: React.Dispatch<React.SetStateAction<boolean>>;
-  successfullySent: boolean;
+  successfullySentContactForm: boolean;
+  setSuccessfullySentContactForm: React.Dispatch<React.SetStateAction<boolean>>;
+  successfullySentUploadCV: boolean;
+  setSuccessfullySentUploadCV: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 const MobilePageNavButtonContext = createContext<
@@ -27,7 +29,10 @@ export default function MobileContext({
   const [isCVOpen, setIsCVOpen] = useState(false);
   const [isContactOpen, setIsContactOpen] = useState(false);
   const [files, setFiles] = useState<File[]>([]);
-  const [successfullySent, setSuccessfullySent] = useState(false);
+  const [successfullySentContactForm, setSuccessfullySentContactForm] =
+    useState(false);
+  const [successfullySentUploadCV, setSuccessfullySentUploadCV] =
+    useState(false);
 
   return (
     <MobilePageNavButtonContext.Provider
@@ -40,8 +45,10 @@ export default function MobileContext({
         setIsContactOpen,
         files,
         setFiles,
-        successfullySent,
-        setSuccessfullySent,
+        successfullySentContactForm,
+        setSuccessfullySentContactForm,
+        successfullySentUploadCV,
+        setSuccessfullySentUploadCV,
       }}
     >
       {children}

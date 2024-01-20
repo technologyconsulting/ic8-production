@@ -10,7 +10,7 @@ const supabase = createClient(supabaseUrl, supabaseKey);
 
 export default function ContactForm() {
   // const [successfullySent, setSuccessfullySent] = useState(false);
-  const [file, setFile] = useState<File | null>(null);
+  // const [file, setFile] = useState<File | null>(null);
   const [formData, setFormData] = useState({
     firstname: "",
     lastname: "",
@@ -21,7 +21,7 @@ export default function ContactForm() {
 
   const [value, setValue] = useState("");
 
-  const { successfullySent, setSuccessfullySent } =
+  const { successfullySentContactForm, setSuccessfullySentContactForm } =
     useMobilePageNavButtonContext();
 
   const textAreaRef = useRef<HTMLTextAreaElement>(null);
@@ -77,7 +77,7 @@ export default function ContactForm() {
 
     setValue("");
 
-    setSuccessfullySent(true);
+    setSuccessfullySentContactForm(true);
 
     console.log("Form data uploaded successfully:", data);
   };
@@ -165,7 +165,7 @@ export default function ContactForm() {
               <p className="text-sm text-white">
                 {/* You agree to our Terms of Service and Privacy Policy. */}
               </p>
-              {successfullySent ? (
+              {successfullySentContactForm ? (
                 <p className="text-lg text-emerald-600">Successfully Sent</p>
               ) : null}
             </div>

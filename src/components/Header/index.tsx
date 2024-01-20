@@ -24,7 +24,6 @@ export default function Header() {
           <MobilePageNavButton />
         </nav>
       </header>
-      {/* ALWAYS ON CONTACT US */}
 
       {/* ALWAYS ON SOCIAL MEDIA */}
       <aside className="sticky left-[85%] top-[80%] z-50 w-fit md:top-[82.5%]">

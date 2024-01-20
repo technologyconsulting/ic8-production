@@ -25,8 +25,13 @@ export default function UploadCV() {
   });
   const [termsAgreed, setTermsAgreed] = useState(false);
 
-  const { isCVOpen, setIsCVOpen, files, setFiles, setSuccessfullySent } =
-    useMobilePageNavButtonContext();
+  const {
+    isCVOpen,
+    setIsCVOpen,
+    files,
+    setFiles,
+    setSuccessfullySentUploadCV,
+  } = useMobilePageNavButtonContext();
 
   const handleCVOpen = () => {
     setFormData({
@@ -38,8 +43,8 @@ export default function UploadCV() {
     });
 
     setTermsAgreed(false);
-
     setFiles([]);
+    setSuccessfullySentUploadCV(false);
     setIsCVOpen(false);
   };
 
@@ -113,7 +118,7 @@ export default function UploadCV() {
 
     setFiles([]); // Reset the file input to empty
 
-    setSuccessfullySent(true);
+    setSuccessfullySentUploadCV(true);
 
     // console.log("Form data and file uploaded successfully:", data);
   };

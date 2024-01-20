@@ -11,8 +11,12 @@ interface FileUploaderProps {
 export default function FileUploader({ onFilesSelected }: FileUploaderProps) {
   // const [files, setFiles] = useState<File[]>([]);
   // const [successfullySent, setSuccessfullySent] = useState(false);
-  const { files, setFiles, successfullySent, setSuccessfullySent } =
-    useMobilePageNavButtonContext();
+  const {
+    files,
+    setFiles,
+    successfullySentUploadCV,
+    setSuccessfullySentUploadCV,
+  } = useMobilePageNavButtonContext();
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const selectedFiles = e.target.files;
@@ -89,7 +93,7 @@ export default function FileUploader({ onFilesSelected }: FileUploaderProps) {
                 />
               </label>
             </>
-          ) : successfullySent ? (
+          ) : successfullySentUploadCV ? (
             <p className="text-lg text-emerald-600">Successfully Sent</p>
           ) : (
             <PhotoIcon
