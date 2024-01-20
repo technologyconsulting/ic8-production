@@ -10,6 +10,9 @@ import "./globals.css";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import MobileContext from "@/lib/MobilePageNavContext";
+import UploadCV from "@/components/UploadCV";
+import { ContactUs } from "@/components/ContactUs";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -44,22 +47,29 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <ClerkProvider
-      appearance={{
-        baseTheme: dark,
-      }}
-    >
-      <html lang="en">
-        <body
-          className={`${poppins.variable}, font-sans flex flex-col w-screen align-center`}
-        >
-          <Header />
-          {children}
-          <Footer />
-        </body>
-        <GoogleAnalytics gaId="G-B4DSNPYYZN" />
-        <Analytics />
-      </html>
-    </ClerkProvider>
+    <MobileContext>
+      <ClerkProvider
+        appearance={{
+          baseTheme: dark,
+        }}
+      >
+        <html lang="en">
+          <body
+            className={`${poppins.variable}, flex w-screen flex-col font-sans`}
+          >
+            <UploadCV />
+            <aside>
+              <ContactUs />
+            </aside>
+            <Header />
+
+            {children}
+            <Footer />
+          </body>
+          <GoogleAnalytics gaId="G-B4DSNPYYZN" />
+          <Analytics />
+        </html>
+      </ClerkProvider>
+    </MobileContext>
   );
 }
