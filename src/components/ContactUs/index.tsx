@@ -10,10 +10,10 @@ export function ContactUs() {
   return (
     <>
       <aside
-        className={` ${isContactOpen ? "animate-slide-out" : "right-[-100vw]"} fixed top-0 z-30 h-full w-full bg-black lg:w-4/6 `}
+        className={` ${isContactOpen ? "animate-slide-out" : "right-[-100vw]"} lg:w-6/6 fixed top-0 z-30 h-full w-full bg-black `}
       >
         <section className="z-30 flex h-full w-full items-center justify-center md:flex-nowrap">
-          <section className="flex max-h-[90%] w-5/6 flex-col overflow-auto md:max-h-full md:flex-row md:gap-8">
+          <section className="flex max-h-[90%] w-5/6 flex-col overflow-auto md:max-h-full md:flex-row md:gap-8 xl:w-3/6">
             <section className="w-full">
               <h2
                 id="contact-us"
