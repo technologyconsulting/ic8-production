@@ -3,7 +3,7 @@ import React from "react";
 
 function Terms() {
   return (
-    <section className="px-8 text-white">
+    <section className="relative m-auto flex h-fit w-full min-w-20 flex-col px-4 text-white xl:w-4/5 xl:max-w-screen-xl">
       <h1 className="py-4 text-lg uppercase text-ic8">Terms of use</h1>
       <p>
         IC8 Limited “IC8” provides you access to www.ic8.co.uk (the “Website”)
