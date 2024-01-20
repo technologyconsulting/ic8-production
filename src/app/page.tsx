@@ -95,8 +95,8 @@ export default function Home() {
               He leads by example, creating high performing cross-functional
               teams, setting high standards of performance and delivering on
               measured financial, customer and employee satisfaction. <br />
-              <br />A father to four daughters, with babysitting duties to two
-              granddaughters, alongside chairing the local Air Cadets means
+              <br />A father to four daughters, with babysitting duties to one
+              granddaughter, alongside chairing the local Air Cadets means
               Tim&apos;s time outside the office is kept busy and colourful.
             </p>
           </div>
