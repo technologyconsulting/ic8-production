@@ -30,11 +30,11 @@ export default function MobilePageNavButton() {
       </div>
       <div
         className={` ${
-          isOpen || width >= 768 ? "h-fit" : "h-0"
+          isOpen || (width !== undefined && width >= 768) ? "h-fit" : "h-0"
         } lg:w-auto"> <div className=" block w-full flex-grow md:mt-4 md:w-fit lg:flex
         lg:flex-grow lg:items-center xl:mt-2`}
       >
-        {isOpen || width >= 768 ? <PageNav /> : null}
+        {isOpen || (width !== undefined && width >= 768) ? <PageNav /> : null}
       </div>
       <div className=" lg:flex-grow">
         <section className="hidden md:hidden lg:flex xl:w-1/5">
