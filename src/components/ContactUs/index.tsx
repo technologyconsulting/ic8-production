@@ -10,9 +10,9 @@ export function ContactUs() {
   return (
     <>
       <aside
-        className={` ${isContactOpen ? "animate-slide-out" : "right-[-100vw]"} fixed top-0 z-50 h-full w-full bg-black lg:w-4/6 `}
+        className={` ${isContactOpen ? "animate-slide-out" : "right-[-100vw]"} fixed top-0 z-30 h-full w-full bg-black lg:w-4/6 `}
       >
-        <section className="z-50 flex h-full w-full items-center justify-center md:flex-nowrap">
+        <section className="z-30 flex h-full w-full items-center justify-center md:flex-nowrap">
           <section className="flex max-h-[90%] w-5/6 flex-col overflow-auto md:max-h-full md:flex-row md:gap-8">
             <section className="w-full">
               <h2
@@ -59,7 +59,7 @@ export function ContactUs() {
       </aside>
       <button
         type="button"
-        className="fixed bottom-[5%] right-[10%] z-50 lg:right-[16%] lg:top-[88%] "
+        className="relative z-50"
         onClick={() => {
           setIsContactOpen((current) => !current);
           setSuccessfullySentContactForm(false);
