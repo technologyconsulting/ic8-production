@@ -151,7 +151,7 @@ export default function UploadCV() {
               name="firstname"
               id="firstname"
               value={formData.firstname}
-              placeholder="Firstname"
+              placeholder="First name"
               className="border-box h-12 w-full appearance-none bg-black pl-2 text-ic8 focus:border-l-2 focus:border-ic8 focus:outline-none"
               onChange={handleFormChange}
             />
@@ -162,7 +162,7 @@ export default function UploadCV() {
               name="lastname"
               id=""
               value={formData.lastname}
-              placeholder="Lastname"
+              placeholder="Last name"
               className="border-box h-12 w-full bg-black pl-2 focus:border-l-2 focus:border-ic8 focus:outline-none"
               onChange={handleFormChange}
             />

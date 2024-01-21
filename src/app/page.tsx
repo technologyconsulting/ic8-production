@@ -141,7 +141,7 @@ export default function Home() {
           >
             ABOUT
           </h2>
-          <p className="md:w-5/5 xl:text-md my-8 text-center leading-7 tracking-wide text-white text-opacity-60 md:m-auto md:mb-8 md:mt-20 md:rounded-3xl md:bg-neutral-950 md:p-10  md:drop-shadow-white xl:my-8 xl:w-full xl:bg-neutral-950 xl:p-16 xl:text-left xl:drop-shadow-white">
+          <p className="md:w-5/5 xl:text-md my-8 text-center leading-7 tracking-widest text-white text-opacity-60 md:m-auto md:mb-8 md:mt-20 md:rounded-3xl md:bg-neutral-950 md:p-10  md:drop-shadow-white xl:my-8 xl:w-full xl:bg-neutral-950 xl:p-16 xl:text-left xl:drop-shadow-white">
             We are <span className="text-ic8 text-opacity-100">IC8</span>, an IT
             Recruitment and Consultancy company born out of a shared vision
             among ex-colleagues and friends. With over 45 years of IT
@@ -173,7 +173,7 @@ export default function Home() {
             sectors and are dedicated to delivering results. We are committed to
             building long-term relationships with our clients and candidates. We
             believe that trust and respect are the foundation of any successful
-            relationship: we strive to earn the trust and respect of everyone we
+            relationship; we strive to earn the trust and respect of everyone we
             work with.
           </p>
         </section>

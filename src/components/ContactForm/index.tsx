@@ -94,7 +94,7 @@ export default function ContactForm() {
             name="firstname"
             id="firstname"
             value={formData.firstname}
-            placeholder="Firstname"
+            placeholder="First name"
             className="border-box h-12 w-full bg-black pl-2 text-ic8 focus:border-l-2 focus:border-ic8 focus:outline-none"
             onChange={handleFormChange}
           />
@@ -105,7 +105,7 @@ export default function ContactForm() {
             name="lastname"
             id="lastname"
             value={formData.lastname}
-            placeholder="Lastname"
+            placeholder="Last name"
             className="border-box h-12 w-full bg-black pl-2 text-ic8 focus:border-l-2 focus:border-ic8 focus:outline-none"
             onChange={handleFormChange}
           />
@@ -166,7 +166,9 @@ export default function ContactForm() {
                 {/* You agree to our Terms of Service and Privacy Policy. */}
               </p>
               {successfullySentContactForm ? (
-                <p className="text-lg text-ic8teal">Successfully Sent</p>
+                <p className="text-lg font-extrabold text-ic8teal">
+                  Successfully Sent
+                </p>
               ) : null}
             </div>
           </div>

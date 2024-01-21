@@ -140,9 +140,9 @@ export default function Services() {
             SERVICES
           </h2>
           <p className="mt-2 text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Why are we different and what are our characteristics
+            Why are we different and what are our characteristics?
           </p>
-          <p className="mt-6 text-center text-lg leading-8 text-white text-opacity-60">
+          <p className="mt-6 text-center text-lg leading-7 tracking-widest text-white text-opacity-60">
             <span className="text-ic8">IC8</span> is driven by passion for
             excellence, innovation, and transparency. We are constantly looking
             for opportunities to innovate and improve our services.
