@@ -8,7 +8,7 @@ import type { Metadata } from "next";
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 
-import Header from "@/components/Header";
+import Header from "@/components/(Header)/Header";
 import Footer from "@/components/Footer";
 import MobileContext from "@/lib/MobilePageNavContext";
 import UploadCV from "@/components/UploadCV";
@@ -80,9 +80,7 @@ export default function RootLayout({
                 <ContactUs />
               </aside>
             </div>
-
             <Header />
-
             {children}
             <Footer />
           </body>
