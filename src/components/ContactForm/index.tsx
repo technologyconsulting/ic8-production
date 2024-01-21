@@ -160,7 +160,7 @@ export default function ContactForm() {
                 htmlFor="terms"
                 className="mt-1 text-sm font-medium leading-none text-ic8 peer-disabled:cursor-not-allowed peer-disabled:opacity-70"
               >
-                Accept terms and conditions
+                Accept Terms of use
               </label>
               <p className="text-sm text-white">
                 {/* You agree to our Terms of Service and Privacy Policy. */}

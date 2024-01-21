@@ -37,7 +37,7 @@ export default function Home() {
       </section>
 
       {/* PEOPLE */}
-      <section className="m-auto flex w-full min-w-20 max-w-screen-xl flex-col gap-16 bg-black text-ic8 md:gap-4 landscape:mt-12 landscape:gap-0 landscape:md:m-auto landscape:lg:min-h-fit">
+      <section className="m-auto flex min-h-fit w-full min-w-20 max-w-screen-xl flex-col gap-16 bg-black text-ic8 md:gap-4 landscape:mt-12 landscape:gap-0 landscape:md:m-auto landscape:lg:min-h-fit">
         {/* TITLE */}
         <h2
           id="people"
@@ -46,9 +46,9 @@ export default function Home() {
           PEOPLE
         </h2>
         {/* SPENCER SHALKA */}
-        <section className="flex flex-col gap-12 md:items-center md:gap-0 lg:my-12 xl:my-0 xl:mt-12 xl:h-fit xl:flex-row xl:gap-8 xl:rounded-s-full xl:border-none landscape:gap-0 landscape:md:gap-12">
+        <section className="flex min-h-fit flex-col gap-12 md:items-center md:gap-12 lg:my-12 xl:my-0 xl:mt-12 xl:h-fit xl:flex-row xl:gap-8 xl:rounded-s-full xl:border-none landscape:gap-0 landscape:md:gap-12">
           {/* NAME & IMAGE */}
-          <div className="flex h-56 flex-col md:flex-row md:items-center md:gap-12 xl:w-3/6 xl:flex-row xl:justify-between xl:gap-4 xl:rounded-e-full xl:rounded-l-xl xl:border-none xl:bg-neutral-950 xl:drop-shadow-white landscape:flex-row">
+          <div className="flex h-full flex-col md:flex-row md:items-center md:gap-12 xl:w-3/6 xl:flex-row xl:justify-between xl:gap-4 xl:rounded-e-full xl:rounded-l-xl xl:border-none xl:bg-neutral-950 xl:drop-shadow-white landscape:flex-row">
             <div className="flex w-full flex-col justify-center text-center md:mt-4 md:text-right xl:w-3/5 xl:text-right landscape:sm:w-2/4 landscape:sm:text-right ">
               <h1 className="text-4xl font-bold text-white xl:text-6xl landscape:text-4xl">
                 Spencer
@@ -60,12 +60,13 @@ export default function Home() {
                 CO-FOUNDER
               </h1>
             </div>
-            <div className="mx-auto mt-8 flex w-2/5 justify-center md:w-3/5 xl:mx-0 xl:ml-4 xl:mt-0 xl:w-48 landscape:sm:mx-8 landscape:sm:mt-0 landscape:sm:w-1/6 landscape:md:w-2/5 landscape:xl:w-48">
+            <div className="mx-auto mt-8 flex w-2/5 justify-center md:w-3/5 xl:mx-0 xl:ml-4 xl:mt-0 xl:w-48 landscape:sm:mx-8 landscape:sm:mt-0 landscape:sm:w-1/6 landscape:md:w-2/5 landscape:xl:w-48 landscape:xl:p-2">
               <Image
                 src="/spencer1SS.svg"
                 alt="Picture of Spencer Shalka, Co-founder of IC8"
                 width={237}
                 height={230}
+                className="xl:ml-12"
               />
             </div>
           </div>
@@ -86,7 +87,7 @@ export default function Home() {
           </div>
         </section>
         {/* TIM HATHAWAY */}
-        <section className="mt-8 flex min-h-fit flex-col-reverse md:items-center lg:my-12 xl:my-0 xl:mb-12 xl:h-fit xl:flex-row xl:gap-8 xl:rounded-e-full xl:border-none landscape:mt-8 landscape:gap-0 landscape:md:gap-12">
+        <section className="mt-8 flex min-h-fit flex-col-reverse gap-12 md:items-center lg:my-12 xl:my-0 xl:mb-12 xl:h-fit xl:flex-row xl:gap-8 xl:rounded-e-full xl:border-none landscape:mt-8 landscape:gap-0 landscape:md:gap-12">
           {/* BIO */}
           <div className="flex justify-center md:w-4/6 md:rounded-3xl md:bg-neutral-950 md:p-10 md:drop-shadow-white xl:ml-8 xl:w-3/6 xl:rounded-3xl">
             <p className="mx-4 mt-8 h-fit text-center leading-7 tracking-widest text-white text-opacity-60 xl:m-auto xl:text-left xl:text-lg landscape:text-base landscape:sm:mt-0 landscape:md:mt-8">
@@ -101,13 +102,14 @@ export default function Home() {
             </p>
           </div>
           {/* NAME & IMAGE */}
-          <div className="flex h-56 flex-col-reverse md:flex-row md:items-center md:gap-12 xl:w-3/6 xl:flex-row xl:justify-between xl:gap-4 xl:rounded-e-2xl xl:rounded-s-full xl:border-none xl:bg-neutral-950 xl:drop-shadow-white landscape:flex-row landscape:justify-end">
-            <div className="mx-auto mt-8 flex w-2/5 justify-center md:w-3/5 xl:mx-0 xl:ml-4 xl:mt-0 xl:w-48 landscape:sm:mx-8 landscape:sm:mt-0 landscape:sm:w-1/6 landscape:md:w-2/5 landscape:xl:w-48">
+          <div className="flex h-full flex-col-reverse md:flex-row md:items-center md:gap-12 xl:w-3/6 xl:flex-row xl:justify-between xl:gap-4 xl:rounded-e-2xl xl:rounded-s-full xl:border-none xl:bg-neutral-950 xl:drop-shadow-white landscape:flex-row landscape:justify-end">
+            <div className="mx-auto mt-8 flex w-2/5 justify-center md:w-3/5 xl:mx-0 xl:ml-4 xl:mt-0 xl:w-48 landscape:sm:mx-8 landscape:sm:mt-0 landscape:sm:w-1/6 landscape:md:w-2/5 landscape:xl:w-48 landscape:xl:p-2">
               <Image
                 src="/tim1TH.svg"
                 alt="Picture of Tim Hathaway, Co-founder of IC8"
                 width={237}
                 height={230}
+                className="xl:mr-12"
               />
             </div>
             <div className="flex w-full flex-col justify-center text-center md:mt-4 md:text-left xl:ml-4 xl:w-3/5 xl:text-left landscape:sm:w-2/4 landscape:sm:text-left">
