@@ -11,7 +11,7 @@ export default function Header() {
         <nav className="flex w-full flex-wrap items-center justify-between bg-black p-6 md:bg-black">
           <div className="flex flex-shrink-0 items-center text-white">
             <Link href="/">
-              <div className="relative mx-auto h-10 w-24 md:h-14 md:w-32 xl:mx-0 xl:ml-[-4.25rem] xl:h-20 xl:w-48">
+              <div className="relative ml-[-2rem] h-10 w-24 md:h-14 md:w-32 lg:mx-auto xl:mx-0 xl:ml-[-4.25rem] xl:h-20 xl:w-48">
                 <Image
                   src={"/main-logo.png"}
                   alt="IC8 Logo is gold in color, features the word ic8 and has an icon that uses a combination of the 8, i and C"
