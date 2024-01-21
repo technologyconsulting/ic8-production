@@ -8,7 +8,7 @@ export default function Home() {
       {/* HERO */}
       <section
         id="/"
-        className="landscape:sm:h-100vh flex h-[calc(100vh-88px)] scroll-mt-40 flex-col justify-center pb-40 md:justify-center lg:h-[calc(100vh-136px)] xl:scroll-mt-40 landscape:sm:flex-row landscape:md:flex-col"
+        className="landscape:sm:h-100vh flex h-[calc(100vh-88px)] scroll-mt-40 flex-col justify-center pb-40 md:justify-center lg:h-[calc(100vh)] xl:scroll-mt-40 landscape:sm:flex-row landscape:md:flex-col"
       >
         {/* ABOVE THE LINE */}
         <section className="mx-auto mb-8 flex w-5/6 flex-col border-b-2 border-ic8 pb-8 tracking-[.25rem] md:w-fit xl:mx-0 xl:w-fit landscape:sm:w-3/5 landscape:sm:justify-center landscape:sm:border-b-0 landscape:sm:border-r-2  landscape:md:w-fit landscape:md:border-b-2 landscape:md:border-r-0">
