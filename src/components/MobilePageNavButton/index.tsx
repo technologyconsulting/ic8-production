@@ -2,7 +2,7 @@
 import { useMobilePageNavButtonContext } from "@/lib/MobilePageNavContext";
 import useWindowDimensions from "@/lib/useWindowDimensions";
 
-import PageNav from "../PageNav";
+import PageNav from "../(Header)/PageNav";
 
 export default function MobilePageNavButton() {
   const { isOpen, setIsOpen } = useMobilePageNavButtonContext();
