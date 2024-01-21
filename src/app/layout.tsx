@@ -58,7 +58,7 @@ export default function RootLayout({
             className={`${poppins.variable}, relative flex w-screen flex-col font-sans`}
           >
             <UploadCV />
-            <div className="fixed bottom-40 right-4 z-50 flex flex-col gap-8 ">
+            <div className="fixed bottom-12 right-4 z-50 flex flex-col gap-8 md:bottom-40 ">
               {/* ALWAYS ON SOCIAL MEDIA */}
               <aside className="relative z-50">
                 <a target="_blank" href="https://www.linkedin.com/company/ic8/">
