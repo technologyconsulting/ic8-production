@@ -65,11 +65,14 @@ export default function FileUploader({ onFilesSelected }: FileUploaderProps) {
                 {files.length} file(s) ready for upload!
               </p>
               {files.map((file, index) => (
-                <div key={index} className="flex">
-                  <p className="w-4/6 text-left text-ic8">{file.name}</p>
+                <div
+                  key={index}
+                  className="mb-4 flex flex-col py-2 md:flex-row"
+                >
+                  <p className="md:4/6 w-5/6 text-left text-ic8">{file.name}</p>
                   <button
                     type="reset"
-                    className="w-2/6 text-left text-white"
+                    className="w-full text-left text-white md:w-2/6"
                     onClick={() => {
                       handleFileRemoval(index);
                     }}

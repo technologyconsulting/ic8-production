@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useRef } from "react";
+import Link from "next/link";
 import { useMobilePageNavButtonContext } from "@/lib/MobilePageNavContext";
 import FileUploader from "../FileUpload";
 import { XMarkIcon } from "@heroicons/react/24/solid";
@@ -197,7 +198,7 @@ export default function UploadCV() {
                 name="terms"
                 id="terms"
                 checked={termsAgreed}
-                className="h-[20px] w-[20px]"
+                className="h-[20px] w-[20px] cursor-pointer"
                 onChange={handleTermsChange}
               />
 
@@ -208,6 +209,7 @@ export default function UploadCV() {
                 >
                   Accept Terms of use
                 </label>
+
                 <p className="text-sm text-white">
                   {/* You agree to our Terms of Service and Privacy Policy. */}
                 </p>

@@ -152,7 +152,7 @@ export default function ContactForm() {
               name="terms"
               id="terms"
               checked={termsAgreed}
-              className="h-[20px] w-[20px]"
+              className="h-[20px] w-[20px] cursor-pointer"
               onChange={handleTermsChange}
             />
             <div className="grid gap-1.5 leading-none">
