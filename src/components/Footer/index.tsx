@@ -12,7 +12,9 @@ export default function Footer() {
         </p>
       </section>
       <section className="flex flex-col text-ic8 md:flex-row md:justify-between md:gap-8">
-        <p>Privacy Policy</p>
+        <Link href="/privacy-policy">
+          <p>Privacy Policy</p>
+        </Link>
         <Link href="/terms-of-use">
           <p>Terms of use</p>
         </Link>

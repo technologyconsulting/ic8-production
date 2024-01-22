@@ -9,15 +9,15 @@ export default function PageNav() {
   const { setIsOpen, isCVOpen, setIsCVOpen } = useMobilePageNavButtonContext();
 
   return (
-    <nav className="flex w-full flex-wrap md:justify-end lg:justify-center xl:h-16">
-      <ul className="flex flex-col md:flex-row">
+    <nav className="flex w-full flex-wrap justify-end md:justify-center lg:justify-center xl:h-16">
+      <ul className="flex flex-col pr-8 md:flex-row md:pr-0">
         <Link
           href="/#/"
           onClick={() => {
             setIsOpen(false);
           }}
         >
-          <li className="mt-8 flex h-16 items-center px-6 text-lg uppercase md:mt-2 xl:px-8  ">
+          <li className="mt-8 flex h-16 items-center justify-end text-lg uppercase md:mx-4 md:mt-2 xl:mx-0 xl:px-8  ">
             <p className="after:block after:scale-x-0 after:transform after:border-b-2 after:border-b-ic8 after:py-2 after:duration-200 after:ease-in-out after:content-[''] hover:after:scale-x-100 hover:after:py-2">
               HOME
             </p>
@@ -29,7 +29,7 @@ export default function PageNav() {
             setIsOpen(false);
           }}
         >
-          <li className="scroll={false} mt-2 flex h-16 items-center px-6 text-lg uppercase  xl:px-8">
+          <li className="scroll={false} mt-2 flex h-16 items-center justify-end text-lg uppercase md:mx-4 xl:mx-0  xl:px-8">
             <p className="after:block after:scale-x-0 after:transform after:border-b-2 after:border-b-ic8 after:py-2 after:duration-200 after:ease-in-out after:content-[''] hover:after:scale-x-100 hover:after:py-2">
               PEOPLE
             </p>
@@ -41,7 +41,7 @@ export default function PageNav() {
             setIsOpen(false);
           }}
         >
-          <li className="scroll={false} mt-2 flex h-16 items-center px-6 text-lg uppercase  xl:px-8">
+          <li className="scroll={false} mt-2 flex h-16 items-center justify-end text-lg uppercase md:mx-4 xl:mx-0  xl:px-8">
             <p className="after:block after:scale-x-0 after:transform after:border-b-2 after:border-b-ic8 after:py-2 after:duration-200 after:ease-in-out after:content-[''] hover:after:scale-x-100 hover:after:py-2">
               SERVICES
             </p>
@@ -53,7 +53,7 @@ export default function PageNav() {
             setIsOpen(false);
           }}
         >
-          <li className="scroll={false} mt-2 flex h-16 items-center px-6 text-lg uppercase  xl:px-8">
+          <li className="scroll={false} mt-2 flex h-16 items-center justify-end text-lg uppercase md:mx-4 xl:mx-0  xl:px-8">
             <p className="after:block after:scale-x-0 after:transform after:border-b-2 after:border-b-ic8 after:py-2 after:duration-200 after:ease-in-out after:content-[''] hover:after:scale-x-100 hover:after:py-2">
               ABOUT
             </p>
@@ -65,7 +65,7 @@ export default function PageNav() {
             setIsOpen(false), setIsCVOpen(true);
           }}
         >
-          <li className="scroll={false} mt-2 flex h-16 items-center px-6 text-lg uppercase  xl:px-8">
+          <li className="scroll={false} mt-2 flex h-16 items-center justify-end text-lg uppercase md:mx-4 xl:mx-0  xl:px-8">
             <p className="after:block after:scale-x-0 after:transform after:border-b-2 after:border-b-ic8 after:py-2 after:duration-200 after:ease-in-out after:content-[''] hover:after:scale-x-100 hover:after:py-2">
               UPLOAD CV
             </p>

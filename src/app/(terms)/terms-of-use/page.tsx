@@ -3,17 +3,28 @@ import React from "react";
 
 function Terms() {
   return (
-    <section className="relative m-auto flex h-fit w-full min-w-20 flex-col px-4 text-white xl:w-4/5 xl:max-w-screen-xl">
+    <section className="relative m-auto flex h-fit w-full min-w-20 flex-col justify-center px-4 text-white xl:w-2/5 xl:max-w-screen-xl">
       <h1 className="py-4 text-lg uppercase text-ic8">Terms of use</h1>
       <p>
         IC8 Limited “IC8” provides you access to www.ic8.co.uk (the “Website”)
         in order to help you at every stage of the recruitment process and offer
         you other specialist services.
         <br />
-        <br />  These Website terms, along with our Privacy Policy and our
-        Cookie policy outline how you can use this Website at www.ic8.co.uk.
-        These terms apply whether you’re using the site as a guest, a registered
-        member.
+        <br />
+        These Website terms, along with our{" "}
+        <Link href="/privacy-policy" className="text-ic8 underline">
+          Privacy Policy
+        </Link>{" "}
+        and our
+        <Link
+          href="/privacy-policy/#cookie-policy"
+          className="text-ic8 underline"
+        >
+          {" "}
+          Cookie Policy
+        </Link>{" "}
+        outline how you can use this Website at www.ic8.co.uk. These terms apply
+        whether you’re using the site as a guest, a registered member.
         <br />
         <br /> Please read our Terms of Use carefully before using the Website.
         Using the Website indicates that you accept these Terms of Use

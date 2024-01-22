@@ -21,12 +21,7 @@ export default function Home() {
         </section>
         {/* BELWO THE LINE */}
         <p className="px-4 text-center leading-7 tracking-widest text-white text-opacity-60 md:mx-auto md:w-[40rem] md:text-2xl xl:mx-0 xl:w-[45rem] xl:px-0 xl:text-left landscape:sm:my-auto landscape:sm:w-3/5 landscape:md:my-0 landscape:md:w-[40rem] landscape:xl:w-[45rem]">
-          {/* We value openness, honesty, transparency, communication and
-          collaboration as the pillars of our company culture. We work as a team
-          and we treat our clients and candidates as partners. We are always
-          learning and growing, looking for opportunities to innovate and
-          improve. */}
-          <span className="text-ic8 text-opacity-100">IC8</span> is a new IT
+          <span className="text-ic8 text-opacity-100">IC8</span> is an IT
           recruitment and consultancy company founded by ex-colleagues and
           friends who share the values of excellence, innovation and
           transparency. We offer IT recruitment and consultancy services to help
