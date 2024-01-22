@@ -1,10 +1,14 @@
 import {
   ArrowPathIcon,
   DevicePhoneMobileIcon,
+  MicrophoneIcon,
+  ChartPieIcon,
   CloudArrowUpIcon,
   FingerPrintIcon,
   LockClosedIcon,
 } from "@heroicons/react/24/outline";
+
+import { MdArchitecture } from "react-icons/md";
 
 const features = [
   {
@@ -17,19 +21,19 @@ const features = [
     name: "AV Solutions",
     description:
       "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.",
-    icon: LockClosedIcon,
+    icon: MicrophoneIcon,
   },
   {
     name: "Business Analysis",
     description:
       "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
-    icon: ArrowPathIcon,
+    icon: ChartPieIcon,
   },
   {
     name: "Business Architecture",
     description:
       "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
-    icon: FingerPrintIcon,
+    icon: MdArchitecture,
   },
   {
     name: "Business Change and Transformation",

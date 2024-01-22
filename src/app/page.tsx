@@ -44,7 +44,7 @@ export default function Home() {
         <section className="flex min-h-fit flex-col gap-4 md:items-center md:gap-12 lg:my-12 xl:my-0 xl:mt-12 xl:h-fit xl:flex-row xl:gap-8 xl:rounded-s-full xl:border-none landscape:gap-0 landscape:md:gap-12">
           {/* NAME & IMAGE */}
           <div className="flex h-full flex-col md:flex-row md:items-center md:gap-12 xl:w-3/6 xl:flex-row xl:justify-between xl:gap-4 xl:rounded-e-full xl:rounded-l-xl xl:border-none xl:bg-neutral-950 xl:drop-shadow-white landscape:flex-row">
-            <div className="flex w-full flex-col justify-center text-center md:mt-4 md:text-right xl:w-3/5 xl:text-right landscape:sm:w-2/4 landscape:sm:text-right ">
+            <div className="flex w-full flex-col justify-center text-center md:mt-4 md:w-3/6 md:text-right xl:w-3/5 xl:text-right landscape:sm:w-2/4 landscape:sm:text-right ">
               <h1 className="text-4xl font-bold text-white xl:text-6xl landscape:text-4xl">
                 Spencer
               </h1>
@@ -55,7 +55,7 @@ export default function Home() {
                 CO-FOUNDER
               </h1>
             </div>
-            <div className="mx-auto mt-8 flex w-2/5 justify-center md:w-3/5 xl:mx-0 xl:ml-4 xl:mt-0 xl:w-48 landscape:sm:mx-8 landscape:sm:mt-0 landscape:sm:w-1/6 landscape:md:w-2/5 landscape:xl:w-48 landscape:xl:p-2">
+            <div className="mx-auto mt-8 flex w-2/5 justify-center md:mx-0 md:w-1/5 xl:mx-0 xl:ml-4 xl:mt-0 xl:w-48 landscape:sm:mx-8 landscape:sm:mt-0 landscape:sm:w-1/6 landscape:md:w-1/5 landscape:xl:w-48 landscape:xl:p-2">
               <Image
                 src="/ss-circle.png"
                 alt="Picture of Spencer Shalka, Co-founder of IC8"
@@ -97,17 +97,17 @@ export default function Home() {
             </p>
           </div>
           {/* NAME & IMAGE */}
-          <div className="flex h-full flex-col-reverse md:flex-row md:items-center md:gap-12 xl:w-3/6 xl:flex-row xl:justify-between xl:gap-4 xl:rounded-e-2xl xl:rounded-s-full xl:border-none xl:bg-neutral-950 xl:drop-shadow-white landscape:flex-row">
-            <div className="mx-auto mt-8 flex w-2/5 justify-center md:w-3/5 xl:mx-0 xl:ml-4 xl:mt-0 xl:w-48 landscape:sm:mx-8 landscape:sm:mt-0 landscape:sm:w-1/6 landscape:md:w-2/5 landscape:xl:w-48 landscape:xl:p-2">
+          <div className="flex h-full flex-col-reverse md:flex-row md:items-center md:justify-end md:gap-12 xl:w-3/6 xl:flex-row xl:justify-between xl:gap-4 xl:rounded-e-2xl xl:rounded-s-full xl:border-none xl:bg-neutral-950 xl:drop-shadow-white landscape:flex-row">
+            <div className="mx-auto mt-8 flex w-2/5 justify-center md:mx-0 md:w-1/5  xl:mx-0 xl:ml-4 xl:mt-0 xl:w-48 landscape:sm:mx-8 landscape:sm:mt-0 landscape:sm:w-1/6 landscape:md:w-1/5 landscape:xl:w-48 landscape:xl:p-2">
               <Image
                 src="/th-circle.png"
                 alt="Picture of Tim Hathaway, Co-founder of IC8"
                 width={500}
                 height={500}
-                className="xl:mr-12"
+                className="rounded-full border xl:mr-12"
               />
             </div>
-            <div className="flex w-full flex-col justify-center text-center md:mt-4 md:text-left xl:ml-4 xl:w-3/5 xl:text-left landscape:sm:w-2/4 landscape:sm:text-left">
+            <div className="flex w-full flex-col justify-center text-center md:mt-4 md:w-3/6 md:text-left xl:ml-4 xl:w-3/5 xl:text-left landscape:sm:w-2/4 landscape:sm:text-left">
               <h1 className="text-4xl font-bold text-white xl:text-6xl landscape:text-4xl">
                 Tim
               </h1>
@@ -128,49 +128,61 @@ export default function Home() {
       {/* ABOUT & CONTACT US */}
       <section className=" m-auto flex w-full min-w-20 max-w-screen-xl flex-col items-center justify-center bg-black bg-cover px-8 text-center text-ic8 md:w-4/5 xl:w-full xl:flex-row xl:px-0">
         {/* ABOUT */}
-        <section className=" h-full w-full pt-12 xl:mr-16 xl:w-3/5">
+        <section className=" h-full w-full pt-12">
+          {/* <section className=" h-full w-full pt-12 xl:mr-16 xl:w-3/5"> */}
           {/* TITLE */}
           <h2
             id="about"
-            className="scroll-mt-24 text-center text-2xl font-bold md:scroll-mt-40 md:text-3xl xl:mb-24 xl:text-center"
+            className="scroll-mt-24 text-center text-2xl font-bold md:scroll-mt-40 md:text-3xl xl:mb-32 xl:text-center"
           >
             ABOUT
           </h2>
-          <p className="md:w-5/5 xl:text-md my-8 text-center leading-7 tracking-widest text-white text-opacity-60 md:m-auto md:mb-8 md:mt-20 md:rounded-3xl md:bg-neutral-950 md:p-10  md:drop-shadow-white xl:my-8 xl:w-full xl:bg-neutral-950 xl:p-16 xl:text-left xl:drop-shadow-white">
-            We are <span className="text-ic8 text-opacity-100">IC8</span>, an IT
-            Recruitment and Consultancy company born out of a shared vision
-            among ex-colleagues and friends. With over 45 years of IT
-            recruitment and programme delivery experience between the two
-            founders, we understand the challenges and we know how to provide
-            service excellence.
-            <br />
-            <br />
-            We have a strong bond of respect and trust born over long careers
-            that have crossed paths in different IT organisations and roles. We
-            have seen each other thrive in our careers and encouraged and
-            supported each other through our respective highs and lows. We want
-            to share the passion we have had for our own journeys and the
-            expertise that we have built up in that time, with our clients and
-            candidates.
-            <br />
-            <br />
-            Our recruitment process is designed to be efficient, effective and
-            tailored to your specific needs. We understand that every client and
-            every candidate is unique and we take the time to understand both
-            sets of requirements and expectations to ensure the perfect fit for
-            the role.
-            <br />
-            <br />
-            Our consultancy services are focused on delivering value. We work
-            with our clients to identify areas of improvement, where we provide
-            them with the necessary tools and resources to achieve their goals.
-            Our consultants have a wealth of experience in a variety of complex
-            sectors and are dedicated to delivering results. We are committed to
-            building long-term relationships with our clients and candidates. We
-            believe that trust and respect are the foundation of any successful
-            relationship; we strive to earn the trust and respect of everyone we
-            work with.
-          </p>
+          <div className="mt-12 flex flex-col items-center lg:gap-8 xl:flex-row xl:items-start">
+            {/* <p className="md:w-5/5 xl:text-md my-8 text-center leading-7 tracking-widest text-white text-opacity-60 md:m-auto md:mb-8 md:mt-20 md:rounded-3xl md:bg-neutral-950 md:p-10  md:drop-shadow-white  xl:my-8 xl:w-full xl:bg-neutral-950 xl:p-16 xl:text-left xl:drop-shadow-white"> */}
+            <p className="mb-8 rounded-3xl p-2 text-left leading-7 tracking-wide text-white text-opacity-60 lg:mb-0 lg:bg-neutral-950 lg:p-8">
+              We are <span className="text-ic8 text-opacity-100">IC8</span>, an
+              IT Recruitment and Consultancy company born out of a shared vision
+              among ex-colleagues and friends. With over 45 years of IT
+              recruitment and programme delivery experience between the two
+              founders, we understand the challenges and we know how to provide
+              service excellence.
+              <br />
+              <br />
+              We have a strong bond of respect and trust born over long careers
+              that have crossed paths in different IT organisations and roles.
+              We have seen each other thrive in our careers and encouraged and
+              supported each other through our respective highs and lows. We
+              want to share the passion we have had for our own journeys and the
+              expertise that we have built up in that time, with our clients and
+              candidates.
+              <br />
+              <br />
+              Our recruitment process is designed to be efficient, effective and
+              tailored to your specific needs. We understand that every client
+              and every candidate is unique and we take the time to understand
+              both sets of requirements and expectations to ensure the perfect
+              fit for the role.
+              <br />
+              <br />
+              Our consultancy services are focused on delivering value. We work
+              with our clients to identify areas of improvement, where we
+              provide them with the necessary tools and resources to achieve
+              their goals. Our consultants have a wealth of experience in a
+              variety of complex sectors and are dedicated to delivering
+              results. We are committed to building long-term relationships with
+              our clients and candidates. We believe that trust and respect are
+              the foundation of any successful relationship; we strive to earn
+              the trust and respect of everyone we work with.
+            </p>
+            <Image
+              src="/together.jpg"
+              alt="Spencer & Tim standing next to a window"
+              width={600}
+              height={250}
+              style={{ objectFit: "contain" }}
+              className="rounded-2xl"
+            />
+          </div>
         </section>
       </section>
     </main>
