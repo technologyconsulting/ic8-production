@@ -57,11 +57,11 @@ export default function Home() {
             </div>
             <div className="mx-auto mt-8 flex w-2/5 justify-center md:w-3/5 xl:mx-0 xl:ml-4 xl:mt-0 xl:w-48 landscape:sm:mx-8 landscape:sm:mt-0 landscape:sm:w-1/6 landscape:md:w-2/5 landscape:xl:w-48 landscape:xl:p-2">
               <Image
-                src="/spencer1SS.svg"
+                src="/ss-circle.png"
                 alt="Picture of Spencer Shalka, Co-founder of IC8"
-                width={237}
-                height={230}
-                className="xl:ml-12"
+                width={500}
+                height={500}
+                className="rounded-full border xl:ml-12"
               />
             </div>
           </div>
@@ -100,10 +100,10 @@ export default function Home() {
           <div className="flex h-full flex-col-reverse md:flex-row md:items-center md:gap-12 xl:w-3/6 xl:flex-row xl:justify-between xl:gap-4 xl:rounded-e-2xl xl:rounded-s-full xl:border-none xl:bg-neutral-950 xl:drop-shadow-white landscape:flex-row">
             <div className="mx-auto mt-8 flex w-2/5 justify-center md:w-3/5 xl:mx-0 xl:ml-4 xl:mt-0 xl:w-48 landscape:sm:mx-8 landscape:sm:mt-0 landscape:sm:w-1/6 landscape:md:w-2/5 landscape:xl:w-48 landscape:xl:p-2">
               <Image
-                src="/tim1TH.svg"
+                src="/th-circle.png"
                 alt="Picture of Tim Hathaway, Co-founder of IC8"
-                width={237}
-                height={230}
+                width={500}
+                height={500}
                 className="xl:mr-12"
               />
             </div>

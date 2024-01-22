@@ -1,5 +1,6 @@
 import {
   ArrowPathIcon,
+  DevicePhoneMobileIcon,
   CloudArrowUpIcon,
   FingerPrintIcon,
   LockClosedIcon,
@@ -10,7 +11,7 @@ const features = [
     name: "Applications Development and Support",
     description:
       "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
-    icon: CloudArrowUpIcon,
+    icon: DevicePhoneMobileIcon,
   },
   {
     name: "AV Solutions",
@@ -152,7 +153,7 @@ export default function Services() {
           <dl className="mx-auto grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:max-w-none lg:grid-cols-3 lg:gap-y-16 xl:grid-cols-4">
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-16">
-                <dt className="text-base font-semibold leading-7 text-ic8">
+                <dt className="text-base font-semibold leading-7 text-white text-opacity-60">
                   <div className="absolute left-0 top-0 flex h-10 w-10 items-center justify-center rounded-lg bg-ic8teal">
                     <feature.icon
                       className="h-6 w-6 text-white"
