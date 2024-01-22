@@ -97,7 +97,7 @@ export default function FileUploader({ onFilesSelected }: FileUploaderProps) {
               </label>
             </>
           ) : successfullySentUploadCV ? (
-            <p className="text-lg text-ic8teal">Successfully Sent</p>
+            <p className="mt-4 text-lg text-ic8teal">Successfully Sent</p>
           ) : (
             <PhotoIcon
               className="mx-auto h-12 w-12 text-gray-300"
