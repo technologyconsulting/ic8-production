@@ -40,7 +40,7 @@ export function ContactUs() {
                 <a href="tel:00441234123456">
                   <p className="mb-4 border-l-2 border-ic8 bg-neutral-950 p-8">
                     <span className="text-ic8">Telephone:</span> <br />
-                    +44 (0)1234 123456{" "}
+                    +44 (0)7825601185{" "}
                   </p>
                 </a>
                 <p className="mb-4 border-l-2 border-ic8 bg-neutral-950 p-8">
