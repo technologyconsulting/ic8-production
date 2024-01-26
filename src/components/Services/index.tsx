@@ -12,18 +12,6 @@ import { MdArchitecture } from "react-icons/md";
 
 const features = [
   {
-    name: "Applications Development and Support",
-    description:
-      "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
-    icon: DevicePhoneMobileIcon,
-  },
-  {
-    name: "AV Solutions",
-    description:
-      "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.",
-    icon: MicrophoneIcon,
-  },
-  {
     name: "Business Analysis",
     description:
       "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
@@ -54,6 +42,85 @@ const features = [
     icon: LockClosedIcon,
   },
   {
+    name: "Applications Development and Support",
+    description:
+      "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
+    icon: DevicePhoneMobileIcon,
+  },
+  {
+    name: "Mechanical Engineer",
+    description:
+      "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
+    icon: DevicePhoneMobileIcon,
+  },
+  {
+    name: "Electrical Engineer",
+    description:
+      "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
+    icon: DevicePhoneMobileIcon,
+  },
+
+  {
+    name: "IT Infrastructure",
+    description:
+      "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
+    icon: FingerPrintIcon,
+  },
+  {
+    name: "Operational Management",
+    description:
+      "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
+    icon: FingerPrintIcon,
+  },
+  {
+    name: "Project and Programme Management",
+    description:
+      "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
+    icon: CloudArrowUpIcon,
+  },
+  {
+    name: "Information and Technical Assurance",
+    description:
+      "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.",
+    icon: LockClosedIcon,
+  },
+  {
+    name: "Infrastructure Cabling",
+    description:
+      "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
+    icon: ArrowPathIcon,
+  },
+  {
+    name: "Unified Communications and Collaboration",
+    description:
+      "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
+    icon: FingerPrintIcon,
+  },
+  {
+    name: "Service Management",
+    description:
+      "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.",
+    icon: LockClosedIcon,
+  },
+  {
+    name: "Software Development and Testing",
+    description:
+      "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
+    icon: ArrowPathIcon,
+  },
+  {
+    name: "Technical and Solution Architecture",
+    description:
+      "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
+    icon: FingerPrintIcon,
+  },
+  {
+    name: "AV Solutions",
+    description:
+      "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.",
+    icon: MicrophoneIcon,
+  },
+  {
     name: "Data Analysis and Architecture",
     description:
       "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
@@ -76,60 +143,6 @@ const features = [
     description:
       "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
     icon: CloudArrowUpIcon,
-  },
-  {
-    name: "Information and Technical Assurance",
-    description:
-      "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.",
-    icon: LockClosedIcon,
-  },
-  {
-    name: "Infrastructure Cabling",
-    description:
-      "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
-    icon: ArrowPathIcon,
-  },
-  {
-    name: "IT Infrastructure",
-    description:
-      "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
-    icon: FingerPrintIcon,
-  },
-  {
-    name: "Operational Management",
-    description:
-      "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
-    icon: FingerPrintIcon,
-  },
-  {
-    name: "Project and Programme Management",
-    description:
-      "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
-    icon: CloudArrowUpIcon,
-  },
-  {
-    name: "Service Management",
-    description:
-      "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.",
-    icon: LockClosedIcon,
-  },
-  {
-    name: "Software Development and Testing",
-    description:
-      "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
-    icon: ArrowPathIcon,
-  },
-  {
-    name: "Technical and Solution Architecture",
-    description:
-      "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
-    icon: FingerPrintIcon,
-  },
-  {
-    name: "Unified Communications and Collaboration",
-    description:
-      "Arcu egestas dolor vel iaculis in ipsum mauris. Tincidunt mattis aliquet hac quis. Id hac maecenas ac donec pharetra eget.",
-    icon: FingerPrintIcon,
   },
 ];
 
